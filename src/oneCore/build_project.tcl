@@ -27,3 +27,4 @@ set_property SCOPED_TO_CELLS {microblaze_0} [get_files -all -of_objects [get_fil
 # Export to SDK
 file mkdir MC_light_propagation_proj/MC_light_propagation_proj.sdk
 write_hwdef -force -file MC_light_propagation_proj/MC_light_propagation_proj.sdk/mclp_block_design_wrapper.hdf
+update_compile_order -fileset sim_1

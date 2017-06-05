@@ -10,7 +10,7 @@ add_files -tb hls_oneCore/mc_light_prop_tb.cpp
 open_solution "solution1"
 set_part {xcku115-flva1517-2-e}
 create_clock -period 6 -name default
-csim_design -clean -compiler gcc
+csim_design -clean -setup -compiler gcc
 csynth_design
 export_design -format ip_catalog
 exit

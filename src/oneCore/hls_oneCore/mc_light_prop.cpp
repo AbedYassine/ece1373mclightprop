@@ -8,7 +8,6 @@
 //#include "tinymt32.h"
 #include "my_tinymt32.h"
 #include "mc_data_structures.h"
-#include "mc_light_prop.h"
 #include <fstream> // USED for debugging
 
 using namespace std;

@@ -15,7 +15,7 @@ void mc_light_prop(	float_used materials_array[MAX_NUM_MATERIALS*4],
 					const float_used source_x, const float_used source_y, const float_used source_z,
 					const float_used cubeLength, const float_used xmin, const float_used ymin, const float_used zmin,
 					const unsigned int dimx, const unsigned int dimy, const unsigned int dimz,
-					const unsigned int seed
+					const unsigned int seed, unsigned int mesh_size
 		);
 
 float _x_min, _y_min, _z_min, _x_dim, _y_dim, _z_dim;
@@ -197,6 +197,7 @@ void write_vtk_file(unsigned int mat_idx[MAX_DATA_SIZE + 1],
 }
 
 int main() {
+	unsigned int mesh_size = 4000;
 
 	cout << "Running Test Bench!" << endl;
 
@@ -252,9 +253,8 @@ int main() {
 		myfile0 >> mat_idx[i];
 
 	mc_light_prop(materials_array, absorption, mat_idx, source_x_pos, source_y_pos, source_z_pos,
-				cube_length, x_min, y_min, z_min, X_dim, Y_dim, Z_dim, seed);
+				cube_length, x_min, y_min, z_min, X_dim, Y_dim, Z_dim, seed, mesh_size);
 
-	unsigned int mesh_size = MAX_DATA_SIZE;
 
 	float_used max_value = 0;
 	int max_id = 0;
