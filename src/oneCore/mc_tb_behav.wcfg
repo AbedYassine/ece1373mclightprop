@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mc_tb" />
+            <top_module name="mdm_funcs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2528280941000fs"></ZoomStartTime>
+      <ZoomEndTime time="2896280941001fs"></ZoomEndTime>
+      <Cursor1Time time="2708370000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="93" />
+   <wave_markers>
+      <marker time="7130000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/mc_tb/reset_rtl" type="logic">
+      <obj_property name="ElementShortName">reset_rtl</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/sys_clock" type="logic">
+      <obj_property name="ElementShortName">sys_clock</obj_property>
+      <obj_property name="ObjectShortName">sys_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/U0/ap_start" type="logic">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/U0/ap_ready" type="logic">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/U0/ap_done" type="logic">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_BREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_BREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_RREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_RREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider21">
+      <obj_property name="label">Micrio-Blaze Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_AWADDR" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_AWADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_AWPROT" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_AWVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_AWVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_AWREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_AWREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_WDATA" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_WSTRB" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_WVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_WVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_WVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_WREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_WREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_WREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_BRESP" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_BVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_BVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_BVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_BREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_BREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_BREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_ARADDR" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_ARPROT" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_ARVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_ARREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_RDATA" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_RRESP" type="array">
+      <obj_property name="ElementShortName">M_AXI_DP_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_RVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_RVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_RVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/microblaze_0/M_AXI_DP_RREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_DP_RREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_DP_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider41">
+      <obj_property name="label">AXI Microblaze input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_ACLK" type="logic">
+      <obj_property name="ElementShortName">S00_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S00_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_ARESETN" type="logic">
+      <obj_property name="ElementShortName">S00_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S00_ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_araddr" type="array">
+      <obj_property name="ElementShortName">S00_AXI_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_arprot" type="array">
+      <obj_property name="ElementShortName">S00_AXI_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_arready" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_arready</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_arvalid" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_arvalid</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_awaddr" type="array">
+      <obj_property name="ElementShortName">S00_AXI_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_awprot" type="array">
+      <obj_property name="ElementShortName">S00_AXI_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_awready" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_awready</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_awvalid" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_awvalid</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_bready" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_bready</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_bresp" type="array">
+      <obj_property name="ElementShortName">S00_AXI_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_bvalid" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_bvalid</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_rdata" type="array">
+      <obj_property name="ElementShortName">S00_AXI_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_rready" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_rready</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_rresp" type="array">
+      <obj_property name="ElementShortName">S00_AXI_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_rvalid" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_rvalid</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_wdata" type="array">
+      <obj_property name="ElementShortName">S00_AXI_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_wready" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_wready</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_wstrb" type="array">
+      <obj_property name="ElementShortName">S00_AXI_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/axi_interconnect_0/S00_AXI_wvalid" type="logic">
+      <obj_property name="ElementShortName">S00_AXI_wvalid</obj_property>
+      <obj_property name="ObjectShortName">S00_AXI_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider157">
+      <obj_property name="label">Material_Array_BRAMs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_0_Addr_A" type="array">
+      <obj_property name="ElementShortName">materials_array_0_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_0_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_0_Dout_A" type="array">
+      <obj_property name="ElementShortName">materials_array_0_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_0_Dout_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_1_Addr_A" type="array">
+      <obj_property name="ElementShortName">materials_array_1_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_1_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_1_Dout_A" type="array">
+      <obj_property name="ElementShortName">materials_array_1_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_1_Dout_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_2_Addr_A" type="array">
+      <obj_property name="ElementShortName">materials_array_2_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_2_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_2_Dout_A" type="array">
+      <obj_property name="ElementShortName">materials_array_2_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_2_Dout_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_3_Addr_A" type="array">
+      <obj_property name="ElementShortName">materials_array_3_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_3_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/materials_array_3_Dout_A" type="array">
+      <obj_property name="ElementShortName">materials_array_3_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">materials_array_3_Dout_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider164">
+      <obj_property name="label">Material_Index</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_0_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_0_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_0_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_0_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_0_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_0_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_1_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_1_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_1_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_1_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_1_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_1_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_2_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_2_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_2_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_2_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_2_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_2_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_3_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_3_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_3_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_3_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_3_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_3_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_4_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_4_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_4_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_4_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_4_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_4_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_5_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_5_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_5_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_5_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_5_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_5_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_6_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_6_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_6_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_6_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_6_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_6_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_7_Addr_A" type="array">
+      <obj_property name="ElementShortName">material_index_7_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_7_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/material_index_7_Dout_A" type="array">
+      <obj_property name="ElementShortName">material_index_7_Dout_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">material_index_7_Dout_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider166">
+      <obj_property name="label">Absorption</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_0_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_0_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_0_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_0_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_0_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_0_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_1_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_1_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_1_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_1_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_1_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_1_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_2_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_2_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_2_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_2_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_2_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_2_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_3_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_3_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_3_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_3_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_3_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_3_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_4_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_4_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_4_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_4_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_4_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_4_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_5_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_5_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_5_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_5_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_5_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_5_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_6_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_6_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_6_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_6_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_6_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_6_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_7_Addr_A" type="array">
+      <obj_property name="ElementShortName">absorption_7_Addr_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_7_Addr_A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mc_tb/dut/mclp_block_design_i/mc_light_prop_0/absorption_7_Din_A" type="array">
+      <obj_property name="ElementShortName">absorption_7_Din_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">absorption_7_Din_A[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider335">
+      <obj_property name="label">BRAMs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>
