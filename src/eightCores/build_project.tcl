@@ -1,7 +1,7 @@
 # Create Project and build the Block design
 source mclp_block_design.tcl
 
-generate_target all [get_files MC_light_propagation_proj/MC_light_propagation_proj.srcs/siyrces_1/bd/mclp_block_design/mclp_block_design.bd]
+generate_target all [get_files MC_light_propagation_proj/MC_light_propagation_proj.srcs/sources_1/bd/mclp_block_design/mclp_block_design.bd]
 
 # Make HDL Wrapper
 validate_bd_design
