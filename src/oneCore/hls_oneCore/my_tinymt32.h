@@ -1,3 +1,8 @@
+/*
+Copyright (c) 2011, 2013 Mutsuo Saito, Makoto Matsumoto,
+Hiroshima University and The University of Tokyo.
+*/
+
 #ifndef _MYTINYMT32_H_
 #define _MYTINYMT32_H_
 
